@@ -1,0 +1,26 @@
+
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transition: 200ms transform,
+        200ms left;
+    width: 10px;
+    height: 10px;
+    background-color: #056873;
+}
+.swiper-pagination-bullet{
+    left: 0px !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    width: auto !important;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 50px;
+    margin-bottom: 0px;
+}
+
+.swiper-slide{
+    text-align: left;
+} 
