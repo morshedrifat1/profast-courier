@@ -3,6 +3,7 @@
 @plugin "daisyui" {
   themes: light --default;
 }
+
 @plugin "daisyui/theme" {
   default: true;
   --color-base-100: #eaeced;
